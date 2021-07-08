@@ -16,6 +16,19 @@ header {
     height: 60px;
 }
 header nav {
-display: flex;
-justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+header nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+    text-decoration: none;
 }
